@@ -1,22 +1,16 @@
-This plugin template uses Typescript. If you are familiar with Javascript, Typescript will
-look very familiar. In fact, valid Javascript code is already valid Typescript code.
+![image](https://user-images.githubusercontent.com/1207863/63844575-22098180-c991-11e9-868c-de638387761f.png)
 
-Typescript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+Resize selected layer from any corner or direction.
 
-For more information, visit https://www.typescriptlang.org/
+The plugin behaves as if you are resizing with alt/opt key pressed, but with more options.
 
-Using Typescript requires a compiler to convert Typescript (code.ts) into Javascript (code.js)
-for the browser to run.
+### HOW TO USE
+1. Select any layer.
+2. Change the anchor to the desired one.
+3. Type the new dimensions in the the proper fields.
 
-To get the TypeScript compiler working:
+### PRO TIP
+Use up & down to nudge the layer size.  Use it with shift to nudge by 10.
 
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Install the TypeScript compiler globally: `sudo npm install -g typescript`.
-3. Open this directory in Visual Studio Code.
-4. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "tsc: watch - tsconfig.json". You will have to do this again every time
-    you reopen Visual Studio Code.
-
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+### INSTALLATION
+https://www.figma.com/c/plugin/740887843052935394/Anchor-Resizer
